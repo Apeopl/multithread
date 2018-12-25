@@ -5,6 +5,9 @@ package com.zjl.synchronizedtest;
 * @version 2018年12月25日 下午2:06:54 
 */
 public class SynchronizedTest05 {
+	/**
+	 * 当锁为字符串常量时，引用只有一个
+	 */
 	public void method(){
 		synchronized ("字符串常量") {//new String("字符串常量")
 			try {
