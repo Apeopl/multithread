@@ -1,0 +1,2 @@
+synchronized：同步，同步的概念就是共享
+asynchronized：异步，异步的概念就是独立，相互之间不受任何制约。
