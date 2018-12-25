@@ -18,7 +18,7 @@ public class SynchronizedTest03 {
 		this.pwd = pwd;
 		System.out.println("setValue: uname="+uname+",pwd="+pwd);
 	}
-	public /*synchronized*/ void getValue(){
+	public synchronized void getValue(){
 		System.out.println("getValue: uname="+uname+",pwd="+pwd);
 	}
 	
