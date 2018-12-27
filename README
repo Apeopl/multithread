@@ -16,3 +16,11 @@ DelayQueue：带有延迟时间的queue，其中的元素必须实现Delayed接�
 多线程模式：
 	Future模式
 	Master-Worker模式：并行计算
+	生产者-消费者模式
+线程池：
+	Executors工具类中自带的：cached、fixed、singled、scheduled
+	自定义线程池：无界队列、有界队列
+锁：
+	常用工具类：CountDownLatch、CyclicBarrier
+	Callable、Future(适用于耗时长的业务逻辑处理)
+	重入锁：ReentrantLock
